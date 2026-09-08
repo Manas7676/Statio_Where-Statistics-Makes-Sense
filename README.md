@@ -23,6 +23,31 @@ The project is being built from the ground up with a focus on:
 
 ---
 
+## Current Progress
+
+Statio is currently under active development.
+
+### Descriptive Statistics
+
+- [x] Mean
+- [x] Median
+- [x] Mode
+- [ ] Variance
+- [ ] Standard Deviation
+- [ ] Range
+- [ ] Quartiles
+- [ ] Percentile
+- [ ] IQR
+- [ ] Z-Score
+
+Each implemented function is developed with:
+- Mathematical definition and reasoning
+- Explicit input and output contracts
+- Edge-case handling
+- Invalid-input validation
+- Automated tests
+- Documentation
+
 ## 🎯 Vision
 
 Statio aims to make statistical analysis easier to perform and easier to understand.
