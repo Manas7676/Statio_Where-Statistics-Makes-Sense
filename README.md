@@ -32,7 +32,7 @@ Statio is currently under active development.
 - [x] Mean
 - [x] Median
 - [x] Mode
-- [ ] Variance
+- [x] Variance
 - [ ] Standard Deviation
 - [ ] Range
 - [ ] Quartiles
