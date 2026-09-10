@@ -1,6 +1,6 @@
 # Statio
 <p align="center">
-  <img src="assets/statio_logo.png" alt="Statio Logo" width="180">
+  <img src="statio/assets/statio-logo.png" alt="Statio Logo" width="180">
 </p>
 
 <h1 align="center">Statio</h1>
