@@ -103,3 +103,10 @@ data = [10, 20, 30, 40, 50]
 result = mean(data)
 
 print(result)
+
+## Why Statio?
+
+Statio is designed to make statistical analysis simple, readable, and accessible.
+
+The goal is to provide clear statistical functions with sensible handling of
+edge cases, useful errors, and an easy-to-understand API.
