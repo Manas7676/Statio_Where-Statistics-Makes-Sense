@@ -1,5 +1,13 @@
 # Statio
+<p align="center">
+  <img src="assets/statio_logo.png" alt="Statio Logo" width="180">
+</p>
 
+<h1 align="center">Statio</h1>
+
+<p align="center">
+  Where Statistics Makes Sense.
+</p>
 ### Where Statistics Makes Sense.
 
 Statio is an open-source Python library focused on making statistical analysis simple, understandable, and convenient for data scientists, ML engineers, AI engineers, researchers, and students.
