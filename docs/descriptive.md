@@ -7,6 +7,31 @@ Statio provides simple statistical functions with a focus on
 readability, correctness, clear input handling, and useful results.
 
 ---
+## Quick Reference
+
+| Function | Purpose |
+|----------|---------|
+| `mean()` | Calculates the arithmetic average |
+| `median()` | Finds the middle value |
+| `mode()` | Finds the most frequently occurring value |
+
+### Example
+
+```python
+from statio.descriptive.mean import mean
+from statio.descriptive.median import median
+from statio.descriptive.mode import mode
+
+data = [10, 20, 20, 30, 40]
+
+mean(data)
+# 24.0
+
+median(data)
+# 20
+
+mode(data)
+# [20]
 
 ## Available Statistics
 
