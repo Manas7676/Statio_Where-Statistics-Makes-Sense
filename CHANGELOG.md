@@ -21,3 +21,11 @@ All notable changes to Statio will be documented in this file.
 - Added project README
 - Added descriptive statistics documentation
 - Added project roadmap
+
+## Development Status
+
+Statio is currently in early development.
+
+The current focus is building the core descriptive statistics module
+with clear mathematical implementations, input validation, automated
+tests, and readable documentation.
