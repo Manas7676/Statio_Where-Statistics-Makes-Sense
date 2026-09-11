@@ -104,13 +104,16 @@ The library will eventually be able to recommend appropriate statistical methods
 The goal of Statio is to make statistical operations as simple as:
 
 ```python
-from statio import mean
+from statio.descriptive.mean import mean
+from statio.descriptive.median import median
+from statio.descriptive.mode import mode
 
-data = [10, 20, 30, 40, 50]
+data = [10, 20, 20, 30, 40]
 
-result = mean(data)
+print(mean(data))
+print(median(data))
+print(mode(data))
 
-print(result)
 
 ## Why Statio?
 
