@@ -3,7 +3,7 @@ import warnings
 
 def mode(data):
     if not isinstance(data, list):
-        raise TypeError("data must be a list")
+        raise TypeError("data must be a list containing numeric values")
 
     if len(data) == 0:
         raise ValueError("data cannot be empty")
@@ -17,8 +17,7 @@ def mode(data):
         elif isinstance(value, (int, float)):
             has_numeric = True
         else:
-            raise TypeError("all elements must be numeric")
-
+            raise TypeError("all elements in data must be numeric")
     if has_boolean and has_numeric:
         warnings.warn(
             "Boolean value detected. True/False will be interpreted as 1/0.",
