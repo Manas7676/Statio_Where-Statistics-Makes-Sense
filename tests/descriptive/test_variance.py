@@ -61,3 +61,14 @@ def test_variance_mixed_boolean():
         result = variance([1, 2, True])
 
     assert result == pytest.approx(2 / 9)
+
+def test_variance_zero_values():
+    assert variance([0, 0, 0, 0]) == 0.0
+
+
+def test_variance_large_values():
+    assert variance([1000000, 1000001, 1000002]) == pytest.approx(2 / 3)
+
+
+def test_variance_sample_two_values():
+    assert variance([10, 20], sample=True) == 50.0
